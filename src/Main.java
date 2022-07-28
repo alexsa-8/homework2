@@ -13,6 +13,7 @@ public class Main {
         double b=4.5;
         boolean c=dog>10;
         char d=33;
+        System.out.println(d);
 
         // Задание 2
         double boxer1=78.2;
