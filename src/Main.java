@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         // Задание 1
-        byte cat=1;
+        System.out.println("\nЗадание 1");
+        byte cat=2;
         short mouse=3;
         int dog=7;
         long elephant=110L;
@@ -16,34 +17,39 @@ public class Main {
         System.out.println(d);
 
         // Задание 2
+        System.out.println("\nЗадание 2");
         double boxer1=78.2;
         double boxer2=82.7;
         double s=boxer1+boxer2;
         double r=boxer2-boxer1;
         System.out.println("Общий вес двух бойцов "+s+" кг");
-        System.out.println("Разница между весами бойцов "+r+" кг");
+        System.out.println("Разница между весами бойцов "+Math.abs(boxer1-boxer2)+" кг");
 
         // Задание 3
-        double banan=5*80;
+        System.out.println("\nЗадание 3");
+        double bananas=5*80;
         double milk=200/100*105;
         double plombir=2*100;
-        double eggs=4+70;
-        double sport=banan+milk+plombir+eggs;
+        double eggs=4*70;
+        double sport=bananas+milk+plombir+eggs;
         double kg=sport/1000;
-        System.out.println("Вес спорт-завтрака "+kg+" грамм");
+        System.out.println("Вес спорт-завтрака "+kg+" кг");
 
         // Задание 4
-        int racion1=7*1000/250;
-        int racion2=7*1000/500;
-        int seredina=(racion1+racion2)/2;
-        System.out.println("Если спортсмен будет ежедневно терять в весе по 250 гр., то через "+racion1+" дней он вернется в свою весовую категорию");
-        System.out.println("Если спортсмен будет ежедневно терять в весе по 500 гр., то через "+racion2+" дней он вернется в свою весовую категорию");
-        System.out.println("В среднем спорцмену понадобится "+seredina+" день и он вернется в свою весовую категорию");
+        System.out.println("\nЗадание 4");
+        int ration1=250;
+        int ration2=500;
+        int gram=7*1000;
+        int middle=gram/((ration1+ration2)/2);
+        System.out.println("Если спортсмен будет ежедневно терять в весе по 250 гр., то через "+gram/ration1+" дней он вернется в свою весовую категорию");
+        System.out.println("Если спортсмен будет ежедневно терять в весе по 500 гр., то через "+gram/ration2+" дней он вернется в свою весовую категорию");
+        System.out.println("В среднем спорцмену понадобится "+middle+" день и он вернется в свою весовую категорию");
 
         // Задание 5
-        int Masha=67760;
-        int Denis=83690;
-        int Kristina=76230;
+        System.out.println("\nЗадание 5");
+        int Masha=67_760;
+        int Denis=83_690;
+        int Kristina=76_230;
         int Masha1= (int) (Masha*1.1);
         int Denis1= (int) (Denis*1.1);
         int Kristina1= (int) (Kristina*1.1);
